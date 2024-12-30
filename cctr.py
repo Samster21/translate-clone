@@ -11,8 +11,8 @@ if sys.stdin.isatty():  # Check if input is from the terminal
 else:  # Input from pipe
     text = sys.stdin.read().strip()
 
-    
+
 if args.delete:
-        print(fd.delete(user_input=text,set1=args.set_1))
+    print(fd.delete(user_input=text,set1=args.set_1))
 else:
     print(fd.translate(user_input=text,set1=args.set_1, set2=args.set_2))
