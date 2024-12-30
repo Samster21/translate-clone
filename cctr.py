@@ -13,6 +13,8 @@ else:  # Input from pipe
 
 
 if args.delete:
-    print(fd.delete(user_input=text,set1=args.set_1))
-else:
-    print(fd.translate(user_input=text,set1=args.set_1, set2=args.set_2))
+    text = fd.delete(user_input=text,set1=args.set_1)
+    print(text)
+else: #Translate
+    text = fd.translate(user_input=text,set1=args.set_1, set2=args.set_2)
+    print(text)
