@@ -10,8 +10,10 @@ Currently, translation from one set of letters to another set is supported. The 
 Supported sets are:
 [:upper:] - Upper Case letters
 [:lower:] - Lower Case letters and,
-
 Substitutions
+
+*******NEW***********
+Character deletion now supported! 
 
 In your terminal, please type the following: python3 cctr.py [set1] [set2]
 It will ask for your input, please pass in the desired text to be translated
@@ -19,6 +21,5 @@ It will ask for your input, please pass in the desired text to be translated
 Future Goals:
 Support various other classes of translation present in the tr tool
 
-Support Character deletion
 
 Support Character Squashing
